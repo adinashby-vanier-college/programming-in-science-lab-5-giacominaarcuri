@@ -4,15 +4,14 @@
 # *   *
 # *   *
 # *****
+
 def hollow_square(n):
     result = ""
 
     for i in range(n):
         for j in range(n):
-
             if i == 0 or i == (n - 1) or j == 0 or j == (n - 1):
                 result += "*"
-
             else: 
                 result += " "
             
@@ -24,9 +23,11 @@ def hollow_square(n):
 # 12
 # 123
 # 1234
+
 def number_pattern(n):
     result = ""
     count = 1
+    
     for i in range(n + 1):
         count = 1
 
